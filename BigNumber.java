@@ -15,7 +15,7 @@ public class BigNumber{
 	BigNumber(String newNumber1, String newNumber2){		
 		setList(newNumber1, newNumber2);
 		setLength_min();
-		plus();
+		calculatePlus();
 	}
 	
 	//Mutator method to set array list
@@ -40,7 +40,7 @@ public class BigNumber{
 	}
 	
 	//Method to plus two numbers
-	public void plus(){
+	public void calculatePlus(){
 		int carry = 0, digit_N1, digit_N2;
 		for(int i = 0; i < length_min; i++){
 			digit_N1 = list1.get(i);
