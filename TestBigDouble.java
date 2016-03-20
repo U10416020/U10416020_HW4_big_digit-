@@ -8,7 +8,7 @@ public class TestBigDouble{
 		Scanner input = new Scanner(System.in);
 		
 		//Prompt user to enter doubles
-		System.out.println("Enter two double: ");
+		System.out.println("Enter two big number: ");
 		String num1 = input.next();
 		String num2 = input.next();
 		
