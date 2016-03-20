@@ -8,7 +8,7 @@ public class TestBigNumber{
 		Scanner input = new Scanner(System.in);
 		
 		//Let user enter two number
-		System.out.println("Enter two big number: ");		
+		System.out.println("Enter two integer: ");		
 		String number1 = input.next();
 		String number2 = input.next();		
 		
